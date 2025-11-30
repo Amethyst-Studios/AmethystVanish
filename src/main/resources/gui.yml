@@ -1,0 +1,75 @@
+# GUI Configuration
+
+title: "&5Amethyst Vanish &7- &f{player}"
+rows: 3
+
+# Filler item for empty slots
+filler:
+  material: "GRAY_STAINED_GLASS_PANE"
+
+# GUI Items configuration
+items:
+  main-vanish:
+    material: "ENDER_EYE"
+    name: "&aToggle Vanish"
+    lore:
+      - "&7Click to toggle vanish on/off"
+      - "&7Current: &a{vanish_status}"
+      - ""
+      - "&eLeft-Click: &7Toggle vanish"
+    slot: 11
+
+  silent-chest:
+    material: "CHEST"
+    name: "&eSilent Chest View"
+    lore:
+      - "&7Toggle silent chest opening"
+      - "&7Current: &a{silent_chest_status}"
+      - ""
+      - "&eLeft-Click: &7Toggle feature"
+      - "&7When enabled, chests open"
+      - "&7without making sound"
+    slot: 13
+
+  no-pickup:
+    material: "HOPPER"
+    name: "&cNo Item Pickup"
+    lore:
+      - "&7Toggle item pickup while vanished"
+      - "&7Current: &a{no_pickup_status}"
+      - ""
+      - "&eLeft-Click: &7Toggle feature"
+      - "&7When enabled, you won't"
+      - "&7pick up items while vanished"
+    slot: 15
+
+  no-interact:
+    material: "BARRIER"
+    name: "&6No Interaction"
+    lore:
+      - "&7Toggle block/entity interaction"
+      - "&7Current: &a{no_interact_status}"
+      - ""
+      - "&eLeft-Click: &7Toggle feature"
+      - "&7When enabled, you can't"
+      - "&7interact with anything"
+    slot: 17
+
+  close:
+    material: "REDSTONE"
+    name: "&cClose"
+    lore:
+      - "&7Click to close this menu"
+    slot: 26
+
+# Additional info item (optional)
+info:
+  material: "BOOK"
+  name: "&bVanish Information"
+  lore:
+    - "&7Online Players: &a{online_players}"
+    - "&7Vanished Players: &a{vanished_players}"
+    - ""
+    - "&7You can use &e/vanish gui &7to"
+    - "&7open this menu anytime!"
+  slot: 4
