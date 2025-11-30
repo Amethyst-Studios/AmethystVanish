@@ -1,0 +1,68 @@
+# AmethystVanish Messages
+
+# Permission messages
+no-permission: "&cYou don't have permission to use this command!"
+
+# Vanish messages
+vanish:
+  enabled: "&aVanish enabled! You are now hidden from other players."
+  disabled: "&cVanish disabled! You are now visible to other players."
+
+# Feature toggle messages
+silent-chest:
+  enabled: "&aSilent chest viewing enabled! Chests will open without sound."
+  disabled: "&cSilent chest viewing disabled!"
+
+no-pickup:
+  enabled: "&aNo pickup enabled! You will no longer pick up items."
+  disabled: "&cNo pickup disabled!"
+
+no-interact:
+  enabled: "&aNo interact enabled! You can no longer interact with blocks/entities."
+  disabled: "&cNo interact disabled!"
+
+# Command messages
+config-reloaded: "&aConfiguration reloaded successfully!"
+command-usage: "&eUsage: /vanish [gui|silentchest|nopickup|nointeract|reload]"
+
+# GUI messages
+gui:
+  title: "&5Amethyst Vanish"
+  main-vanish:
+    name: "&aToggle Vanish"
+    lore:
+      - "&7Click to toggle vanish on/off"
+      - "&7Current: &a{status}"
+  silent-chest:
+    name: "&eSilent Chest View"
+    lore:
+      - "&7Toggle silent chest opening"
+      - "&7Current: &a{status}"
+  no-pickup:
+    name: "&cNo Item Pickup"
+    lore:
+      - "&7Toggle item pickup while vanished"
+      - "&7Current: &a{status}"
+  no-interact:
+    name: "&6No Interaction"
+    lore:
+      - "&7Toggle block/entity interaction"
+      - "&7Current: &a{status}"
+
+# Additional GUI messages
+gui-disabled: "&cThe vanish GUI is currently disabled!"
+gui-opened: "&aOpening vanish GUI..."
+
+# Feature status messages
+feature-enabled: "&a{feature} has been enabled!"
+feature-disabled: "&c{feature} has been disabled!"
+
+# Player join/leave messages for vanished players
+vanish-join-message: "&7[&5V&7] &d{player} &7joined silently"
+vanish-quit-message: "&7[&5V&7] &d{player} &7left silently"
+
+# Error messages
+player-not-online: "&cThat player is not online!"
+player-not-vanished: "&cThat player is not vanished!"
+already-vanished: "&cYou are already vanished!"
+not-vanished: "&cYou are not vanished!"
