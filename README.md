@@ -120,14 +120,7 @@ Interactive GUI | Yes | Basic
 MySQL Support | Yes | Yes
 
 ## 🤝 Support
-GitHub Repository: [Your GitHub Link]  
-Discord Support: [Your Discord Link]  
-Issue Tracking: [Your Issue Tracker]
-
-## 📄 License
-This plugin is licensed under [Your License]. You may use it on your server and modify it for personal use. Redistribution requires permission.
-
-## 🎉 Changelog
+Discord Support: [[Your Discord Link](https://discord.gg/Y2gbc5vbHz)]  
 
 ### Version 1.0.0
 - Initial release
