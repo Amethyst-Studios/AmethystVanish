@@ -1,0 +1,47 @@
+name: AmethystVanish
+version: 1.0.0
+main: org.AmethystStudios.amethystvanish.AmethystVanish
+api-version: 1.16
+description: A feature-rich vanish plugin with unique functionalities
+author: AmethystStudios
+website: https://amethyststudios.org
+
+commands:
+  vanish:
+    description: Main vanish command
+    usage: /<command> [gui|silentchest|nopickup|nointeract|reload]
+    aliases: [v]
+
+permissions:
+  amethystvanish.*:
+    description: All AmethystVanish permissions
+    children:
+      amethystvanish.use: true
+      amethystvanish.see: true
+      amethystvanish.gui: true
+      amethystvanish.silentchest: true
+      amethystvanish.nopickup: true
+      amethystvanish.nointeract: true
+      amethystvanish.reload: true
+
+  amethystvanish.use:
+    description: Allows using the vanish command
+    default: op
+  amethystvanish.see:
+    description: Allows seeing vanished players
+    default: op
+  amethystvanish.gui:
+    description: Allows using the vanish GUI
+    default: op
+  amethystvanish.silentchest:
+    description: Allows using silent chest feature
+    default: op
+  amethystvanish.nopickup:
+    description: Allows using no pickup feature
+    default: op
+  amethystvanish.nointeract:
+    description: Allows using no interact feature
+    default: op
+  amethystvanish.reload:
+    description: Allows reloading the plugin
+    default: op
