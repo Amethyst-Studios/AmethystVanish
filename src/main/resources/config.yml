@@ -1,0 +1,55 @@
+# AmethystVanish Configuration
+
+# Storage settings
+storage:
+  type: "SQLITE" # SQLITE or MYSQL
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "amethystvanish"
+    username: "root"
+    password: ""
+    useSSL: false
+
+# Vanish effects
+vanish-effects:
+  night-vision: true
+  speed: false
+  invisibility: true
+
+# Custom effects
+custom-effects:
+  particles:
+    enabled: true
+    type: "CLOUD"
+    interval: 5
+  sounds:
+    enabled: true
+    vanish: "ENTITY_ENDERMAN_TELEPORT"
+    reappear: "BLOCK_PORTAL_TRAVEL"
+    volume: 1.0
+    pitch: 1.0
+
+# GUI settings
+gui:
+  enabled: true
+  title: "&5Amethyst Vanish"
+  rows: 3
+
+# Feature toggles
+features:
+  silent-chest: true
+  no-pickup: true
+  no-interact: true
+  particle-effects: true
+  sound-effects: true
+
+# Permission settings
+permissions:
+  see-vanished: "amethystvanish.see"
+  use-vanish: "amethystvanish.use"
+  gui-access: "amethystvanish.gui"
+  silent-chest: "amethystvanish.silentchest"
+  no-pickup: "amethystvanish.nopickup"
+  no-interact: "amethystvanish.nointeract"
+  reload: "amethystvanish.reload"
